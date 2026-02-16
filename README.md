@@ -3,7 +3,7 @@
 The **Sentinel-X Vault** is an immutable registry deployed on the **Sepolia Testnet**. It acts as the "Root of Trust" for application distribution.
 
 ## Why Blockchain?
-Traditional servers can be compromised. If a hacker replaces our APK on the server with malware, the **Hash (CID)** will not match the immutable record on the blockchain. The client app verifies this hash before allowing any download.
+Traditional servers can be compromised. If a hacker replaces our APK on the server with malware, the **Hash** will not match the immutable record on the blockchain. The client app verifies this hash before allowing any download.
 
 ## Smart Contract Details
 - **Contract Name:** `SentinelVault.sol`
